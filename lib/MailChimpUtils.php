@@ -1,5 +1,5 @@
 <?php
-require 'MCAPI.class.php';
+require_once(EXTENSIONS . '/mailchimp/lib/class.mcapi.php');
 
 /**
  * Given a user, the name of a MailChimp list, and the MailChimp API credentials,
